@@ -3,8 +3,8 @@ import smtplib
 
 SERVER = "localhost"
 
-FROM = "########@####.com" #Email address spoofed
-TO = ["#####@####.com"] # Destination Email
+FROM = raw_input('Enter Spoofed Email Address: ') #Email address spoofed
+TO = raw_input('Enter Destination Address: ') # Destination Email
 
 SUBJECT = raw_input('Enter Title Here: ')#enter the title
 
